@@ -1,0 +1,33 @@
+---
+title: "run_analysis CodeBook"
+author: "Joe DeMaro"
+date: "September 4, 2018"
+output: 
+  html_document: default
+---
+
+## Variable Description List
+
+|Variable   |  Description|
+|---------------| -------------|
+|subject        |  ID integer used to signify an individual subject|  
+|activity.str   |  Activity name (one of six activities.)   |
+|domain| Time vs Frequency - designated by t or f in variable name|
+|instrument| the device used to measure - a (accelerometer) or g (gyroscope) in variable|
+|calculated variable| mean or standard deviation|
+|axis|XYZ direction|
+|count|data points to calculate average|
+|average|average by variable for each subject and activity|
+|magnitude|magnitude of signal|
+|jerk|jerk signal|
+```{r cache=FALSE}
+#load(file="c:/RPrograms/GettingCleaningProject/GettingCleaningProject/tidydataset.RData")
+str(tidydataset)
+```
+
+
+## Dataset Structure
+
+```{r}
+head(tidydataset)
+```
