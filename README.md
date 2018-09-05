@@ -1,5 +1,5 @@
 #  Getting and Cleaning Data
-#####This project was created to learn how to work with large data sets to create tidy data sets containing useful information.  Aside from coding the project in R, additional documentation steps are included to allow participants to explain manipulations and actions taken in produce data useful to end users.  
+##### This project was created to learn how to work with large data sets to create tidy data sets containing useful information.  Aside from coding the project in R, additional documentation steps are included to allow participants to explain manipulations and actions taken in produce data useful to end users.  
 #### "Joe DeMaro"
 #### "September 5, 2018"
 
